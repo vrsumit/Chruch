@@ -7,7 +7,7 @@ const app = express();
 // in the dist directory
 //app.use(express.static(__dirname + '/dist/Church'));
 app.get('/*', function(req, res) {
-    res.sendFile(path.join(__dirname + '/dist/Church/index.html'));
+    res.sendFile(path.join(__dirname + 'dist/Church/index.html'));
   });
 // Start the app by listening on the default
 // Heroku port
